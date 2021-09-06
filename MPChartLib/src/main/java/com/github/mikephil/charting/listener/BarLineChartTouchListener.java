@@ -190,7 +190,7 @@ public class BarLineChartTouchListener extends ChartTouchListener<BarLineChartBa
                         boolean shouldPan = !mChart.isFullyZoomedOut() ||
                                 !mChart.hasNoDragOffset();
 
-                        if (shouldPan) {
+                        if (false) {
 
                             float distanceX = Math.abs(event.getX() - mTouchStartPoint.x);
                             float distanceY = Math.abs(event.getY() - mTouchStartPoint.y);
